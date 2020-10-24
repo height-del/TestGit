@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="styleheet" type="text/css" href="main.css">
+	<script src="script.js"></script>>
+	<title>Live code editor</title>
+</head>
+<body>
+	<h1><b> LIVE CODE EDITOR</b></h1>
+	<div class="code-area">
+		<textarea id="htmlCode" placeholder="HTML Code" oninput="showPreview()"></textarea>
+		<textarea id="cssCode" placeholder="CSS Code" oninput="showPreview()"></textarea>
+		<textarea id="jsCode" placeholder="JavaScript Code" oninput="showPreview()"></textarea>
+	</div>
+	<div class="preview-area">
+		<iframe id="preview-window"></iframe>
+	</div>	
+</body>
+</html>
